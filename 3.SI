@@ -1,0 +1,16 @@
+#include<stdio.h> //write a program to calculate simple interest (I=(p*n*r)/100).
+#include<conio.h>
+void main()
+{
+       float si,p,n,r;//simple interest,principal amount,number of year,rate
+       clrscr();
+       printf("\n p=");
+       scanf("%f",&p);
+       printf("\n n=");
+       scanf("%f",&n);
+       printf("\n r=");
+       scanf("%f",&r);
+       si=(p*n*r)/100;
+       printf("\nsimple interest is=%6.2f",si);
+       getch();
+}
